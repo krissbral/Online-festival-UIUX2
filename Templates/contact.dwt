@@ -1,14 +1,10 @@
-
-
-
-<html lang="en"><!-- InstanceBegin template="/Templates/index.dwt" codeOutsideHTMLIsLocked="false" -->
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- InstanceBeginEditable name="title" -->
-    <title>Online festival</title>
-    <!-- InstanceEndEditable -->
+    <title>Contact</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Unica+One&display=swap" rel="stylesheet">
@@ -16,8 +12,8 @@
 </head>
 
 <body>
-	 <div class="container">
-		  <div class="row">
+    <div class="container">
+        <div class="row">
             <div class="col-6">
 
             </div>
@@ -41,10 +37,10 @@
         </div>
 
         <div class="row">
-            <div class="col-6">
+            <div class="col-12 col-md-6">
 
             </div>
-            <div class="col-6 col-md-6 mt-auto">
+            <div class="col-6 col-md- mt-auto">
                 <nav class="navbar">
                     <a class="navbar-brand"></a>
                     <form class="form-inline">
@@ -55,68 +51,69 @@
                 </nav>
             </div>
         </div>
-		 <div class="row">
-            <div class="col-12"><!-- InstanceBeginEditable name="titel" -->
-              <h1>NEWS</h1>
-            <!-- InstanceEndEditable --></div>
-        </div>
-	</div>
-	
-	<div class="row">
-            <div class="col-4 col-md-4 col-lg-4">
-                <div><a class="datum" href="#">4-7 sept</a></div>
-                <div> <img class="news" src="images/live-streaming.png"></div>
-                <img class="next" src="icons/next_purple.png">
-            </div>
+    </div>
 
-            <div class="col-4 col-md-4 col-lg-4">
-                <div>
-                    <p class="news-text">informatie</p>
-                </div>
+
+    <div class="container">
+        <div class="row">
+
+            <h2>contact us!</h2>
+
+        </div>
+
+
+        <div class="row">
+            <a href="
+    #"><img id="down" src="icons/download.png"></a>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <form>
+                    <input type="text" placeholder="Name">
+                    <label for="text"></label>
+                </form>
+            </div>
+            <div class="col-6 col-md-6"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <form>
+                    <input type="text" placeholder="e-mail">
+                    <label for="mail"></label>
+                </form>
+            </div>
+            <div class="col-6">
+
             </div>
         </div>
 
         <div class="row">
-            <div class="col-4 "><!-- InstanceBeginEditable name="data" --><a class="datum" href="#">4-7 sept</a><!-- InstanceEndEditable --><img class="news" src="images/live-streaming.png">
-                <img class="next" src="icons/next_purple.png">
+            <div class="col-12 col-md-6">
+                <form>
+                    <input id="message" type="text" placeholder="Bericht">
+                    <label for="text"></label>
+                </form>
             </div>
-            <div class="col-4 "><!-- InstanceBeginEditable name="info" -->
-              <p class="news-text" href="#">informatie</p>
-            <!-- InstanceEndEditable --></div>
-        </div>
+            <div class="col-12 col-md-6">
+                <form>
+                    <input id="submit" type="submit" value="Verzenden">
+
+					
 
         <div class="row">
             <div class="col-12 line"></div>
         </div>
 
         <div class="row">
-            <div class="col-4 col-md-4"><!-- InstanceBeginEditable name="data2" --><a class="datum" href="#">4-7 sept</a><!-- InstanceEndEditable --><img class="news" src="images/live-streaming.png">
-                <img class="next" src="icons/next_purple.png">
+            <div class="col-12 col-md-12">
+                <img src="">
+                <img src="">
+                <img src="">
+                <img src="">
             </div>
-            <div class="col-4"><!-- InstanceBeginEditable name="info2" -->
-              <p class="news-text" href="#">informatie</p>
-            <!-- InstanceEndEditable --></div>
         </div>
-
-        <div class="row">
-            <div class="col-4 col-md-4"><!-- InstanceBeginEditable name="data3" --><a class="datum" href="#">4-7 sept</a><!-- InstanceEndEditable -->
-              <div class="gradient">
-                    <img class="news" src="images/live-streaming.png"></div>
-                <img class="next" src="icons/next_purple.png">
-          </div>
-            <div class="col-4 col-md-4"><!-- InstanceBeginEditable name="info3" -->
-              <p class="news-text" href="#">informatie</p>
-            <!-- InstanceEndEditable --></div>
-        </div>
-	
-	
-        <div class="row">
-            <div class="col-12 line"></div>
-        </div>
-
-        <div class="row"><!-- InstanceBeginEditable name="logos" -->
-        <div class="col-12 col-md-12"> <img src=""> <img src=""> <img src=""> <img src=""> </div>
-        <!-- InstanceEndEditable --></div>
     </div>
 
 
@@ -165,14 +162,19 @@
 
         </div>
 
-</footer>
-	
-	
-	
-<script src="myscripts.js"></script>
+    </footer>
+
+
+
+    </div>
+
+    <script src="myscripts.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
+
 </body>
-<!-- InstanceEnd --></html>
+
+
+</html>
