@@ -1,0 +1,357 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+  margin: 0 auto;
+  padding: 0;
+  display: 'Unica One';
+  font-family: 'Unica One', cursive;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+/*NAVBAR >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/*SEARCH*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.icon {
+  width: 23px;
+  height: 23px;
+}
+.next {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  bottom: 180px;
+  left: 90%;
+  z-index: 1;
+}
+.btn {
+  background-color: #7534F6;
+  color: #7534F6;
+  /* border-color: #7534F6; */
+  border-radius: 0%;
+  width: 40px;
+  height: 40px;
+}
+.btn:hover {
+  background-color: white;
+  border-color: white;
+}
+.btn:active {
+  background-color: black;
+  border-color: black;
+}
+.mr-sm-2, .form-control input {
+  background-color: #7534F6;
+  color: white;
+  border-radius: 0%;
+  border-color: #7534F6;
+  height: 40px;
+}
+a.nav-link {
+  color: black;
+  display: bold;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.nav-link:hover {
+  background-color: #7534F6;
+  color: white;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.datum {
+  color: white;
+  background-color: #7534F6;
+  display: inline-block;
+  height: 30px;
+  width: 30%;
+  text-align: center;
+  top: 100px;
+  left: 80px;
+  position: absolute;
+  z-index: 1;
+}
+.news {
+  width: 250px;
+  height: 250px;
+  padding-bottom: 10%;
+  object-fit: cover;
+}
+.datum:hover {
+  background-color: white;
+  color: #7534F6;
+  text-decoration: none;
+  z-index: 1;
+  z-index: 0;
+  transform: scale(1.1);
+  transition-duration: 1s;
+}
+h1 {
+  font-size: 70px;
+  text-align: left;
+}
+h2 {
+  font-size: 70px;
+  margin-top: 300px;
+}
+.news:hover {
+  z-index: 0;
+  transform: scale(1.1);
+  transition-duration: 1s;
+}
+.line {
+  border: black solid 1px;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.vertical-text {
+  transform: rotate(90deg);
+  transform-origin: left top 0;
+  position: relative;
+  top: 30px;
+  right: 250px;
+  font-size: 70px;
+  padding-top: 10px;
+}
+/* LINE UP*>>>>>>>>>>>>>>>>>>>>>>>*/
+.ticket {
+  display: inline-block;
+  background-color: #7534F6;
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+  width: 30%;
+  padding: 30px;
+  position: relative;
+  left: 35%;
+}
+.ticket:hover {
+  color: black;
+  text-decoration: none;
+}
+.artist, .purple-block {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.purple-block {
+  background-color: #7534F6;
+  height: 94%;
+}
+.artist {
+  padding-bottom: 20px;
+}
+.artist-name {
+  display: inline-block;
+  background-color: #7534F6;
+  width: 100px;
+  text-align: center;
+  color: white;
+  position: relative;
+  bottom: 190px;
+  left: 150px;
+}
+.artist-name:hover {
+  color: black;
+  text-decoration: none;
+  transform: scale(1.1);
+  transition-duration: 1s;
+}
+/*DUA LIPA INFORMATIE >>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.artist-text {
+  background-color: #EBEBEB;
+  font-size: 10px;
+  padding: 10px;
+  height: 70%;
+}
+.listen-now {
+  display: inline-block;
+  background-color: #7534F6;
+  color: white;
+  text-align: right;
+  justify-content: baseline;
+  position: relative;
+  bottom: 10px;
+  width: 100%;
+  font-size: 40px;
+  padding-right: 10px;
+}
+.white-arrow {
+  width: 15%;
+  padding-right: 10px;
+  z-index: 1;
+}
+.listen-now:hover {
+  color: black;
+  text-decoration: none;
+}
+.down-arrow {
+  transform: rotate(90deg);
+  width: 10%;
+  position: relative;
+  left: 45%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.listen {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.youtube {
+  width: 100%;
+}
+/*ONLINE FESTIVAL >>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.number {
+  color: #7534F6;
+  font-size: 30px;
+}
+.text {
+  font-size: 10px;
+}
+.koop {
+  display: inline-block;
+  background-color: #7534F6;
+  color: white;
+  padding: 30px;
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+}
+.koop:hover {
+  color: black;
+  text-decoration: none;
+}
+h1, .koop {
+  margin-top: 20px;
+}
+.top {
+  margin-top: 405px;
+}
+/*CONTACT>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+input[type=text] {
+  background-color: #7534F6;
+  border: none;
+  display: block;
+  padding: 10px;
+  width: 100%;
+  color: white;
+}
+input[type=submit] {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border: none;
+  width: 100%;
+}
+input[type=submit]:hover {
+  color: black;
+  background-color: white;
+  transition-duration: 1s;
+}
+input[type=submit]:active {
+  border: none;
+}
+::placeholder {
+  color: white;
+  line-height: 100px;
+}
+#message {
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+#down {
+  width: 40px;
+  margin-bottom: 50px;
+}
+h2 {
+  margin-top: 50px;
+}
+#submit {
+  margin-top: 155px;
+}
+/*SOORTEN TICKETS>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+#next-black {
+  width: 60px;
+  position: relative;
+  right: 80px;
+}
+/*##Device=Desktops ##Screen=1281px to higher resolution desktops */
+@media (min-width: 1281px) {}
+/* 
+        ##Device = Laptops, Desktops
+        ##Screen = B/w 1025px to 1280px
+        */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .next {
+    left: 210px;
+  }
+}
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {}
+/* 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                /*MOBILE TABLAD*/
+/*
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ##Device=Tablets,
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Ipads (landscape) ##Screen=B/w 768px to 1024px */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {}
+@media (min-width: 800px) {}
+@media (min-width: 900px) {
+  .vertical-text {
+    right: 90px;
+  }
+}
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+  .datum {
+    font-size: 15px;
+    width: 80px;
+    height: 30px;
+    bottom: 50px;
+    left: 100px;
+    padding-top: 5px;
+  }
+  .vertical-text {
+    transform: rotate(90deg);
+    transform-origin: left top 0;
+    position: relative;
+    top: 50px;
+    right: 170px;
+    font-size: 50px;
+    top: 10px;
+  }
+  .news {
+    width: 250px;
+    height: 250px;
+  }
+  .next {
+    width: 120px;
+    height: 120px;
+    bottom: 200px;
+    left: 400px;
+  }
+  .artist-name {
+    display: inline-block;
+    font-size: 20px;
+    bottom: 300px;
+    left: 200px;
+    padding-right: 70px;
+    padding-right: 70px;
+    text-align: center;
+  }
+  .ticket {
+    width: 100%;
+    left: 0px;
+  }
+  #submit {
+    margin-top: 0;
+  }
+}
