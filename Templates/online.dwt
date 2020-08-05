@@ -66,6 +66,7 @@
             </div>
             <div class="col-6">
                 <a class="koop" href="koop.html">koop tickets</a>
+				<a href="soorten.html" class="koop">Soorten tickets</a>
             </div>
         </div>
         <div class="row">
