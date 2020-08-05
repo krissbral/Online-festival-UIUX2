@@ -15,11 +15,11 @@
   height: 23px;
 }
 .next {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   position: relative;
-  bottom: 180px;
-  left: 90%;
+  bottom: 290px;
+  left: 80%;
   z-index: 1;
 }
 .btn {
@@ -28,7 +28,11 @@
   /* border-color: #7534F6; */
   border-radius: 0%;
   width: 40px;
-  height: 40px;
+  height: 40px;	
+	padding-left: 10px;
+	padding-right: 30px;
+
+	
 }
 .btn:hover {
   background-color: white;
@@ -44,6 +48,9 @@
   border-radius: 0%;
   border-color: #7534F6;
   height: 40px;
+  padding-right: 70px;
+
+	
 }
 a.nav-link {
   color: black;
@@ -65,14 +72,16 @@ a.nav-link {
   height: 30px;
   width: 30%;
   text-align: center;
-  top: 100px;
-  left: 80px;
+  top: 160px;
+  left: 60px;
   position: absolute;
   z-index: 1;
 }
 .news {
-  width: 250px;
-  height: 250px;
+  position: relative;
+  right: 90px;
+  width: 400px;
+  height: 400px;
   padding-bottom: 10%;
   object-fit: cover;
 }
@@ -81,13 +90,10 @@ a.nav-link {
   color: #7534F6;
   text-decoration: none;
   z-index: 1;
-  z-index: 0;
-  transform: scale(1.1);
   transition-duration: 1s;
 }
 h1 {
   font-size: 70px;
-  text-align: left;
 }
 h2 {
   font-size: 70px;
@@ -95,14 +101,25 @@ h2 {
 }
 .news:hover {
   z-index: 0;
-  transform: scale(1.1);
-  transition-duration: 1s;
 }
 .line {
-  border: black solid 1px;
+  border: #7534F6 solid 1px;
   width: 100%;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 200px;
+  animation: line 3s ease-in-out 3s infinite;
+}
+@keyframes line{
+	
+	from {
+		
+	border-color: #7534F6;
+		
+	}
+	to{
+		
+		border-color: black;
+	
+	}
 }
 .vertical-text {
   transform: rotate(90deg);
@@ -293,12 +310,9 @@ h2 {
   ##Device = Tablets, Ipads (portrait)
   ##Screen = B/w 768px to 1024px
 */
-@media (min-width: 768px) and (max-width: 1024px) {}
-/* 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                /*MOBILE TABLAD*/
-/*
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ##Device=Tablets,
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Ipads (landscape) ##Screen=B/w 768px to 1024px */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+}
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {}
 @media (min-width: 800px) {}
 @media (min-width: 900px) {
@@ -313,11 +327,12 @@ h2 {
 @media (min-width: 481px) and (max-width: 767px) {
   .datum {
     font-size: 15px;
-    width: 80px;
+    width: 200px;
     height: 30px;
-    bottom: 50px;
-    left: 100px;
+    bottom: 100px;
+    left: 15px;
     padding-top: 5px;
+	
   }
   .vertical-text {
     transform: rotate(90deg);
@@ -329,15 +344,22 @@ h2 {
     top: 10px;
   }
   .news {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
+	right: 0;
   }
+	h1{
+		position: relative;
+		left: 35px;
+	}
   .next {
-    width: 120px;
-    height: 120px;
-    bottom: 200px;
-    left: 400px;
+    width: 80px;
+    height: 80px;
+    bottom: 150px;
+    left: 170px;	   
+    position: none;  
   }
+  
   .artist-name {
     display: inline-block;
     font-size: 20px;
@@ -355,3 +377,4 @@ h2 {
     margin-top: 0;
   }
 }
+
