@@ -1,18 +1,18 @@
 
 
 
-<html lang="en">
+<html lang="en"><!-- InstanceBegin template="/Templates/index.dwt" codeOutsideHTMLIsLocked="false" -->
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- TemplateBeginEditable name="title" -->
+    <!-- InstanceBeginEditable name="title" -->
     <title>Online festival</title>
-    <!-- TemplateEndEditable -->
+    <!-- InstanceEndEditable -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="../css/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Unica+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="../css/footer.css">
 </head>
 
 <body>
@@ -26,15 +26,15 @@
                 <nav class="navbar navbar-expand-lg">
                     <a class="navbar-brand" href="#"></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                 <img id="burger" src="icons/menu-button-purple.png"> 
+                 <img id="burger" src="../icons/menu-button-purple.png"> 
                 </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <ul class="navbar-nav mr-auto right">
-                            <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
-                            <a class="nav-item nav-link" href="lineup.html">Line Up</a>
-                            <a class="nav-item nav-link" href="online.html">Online Festival</a>
-                            <a class="nav-item nav-link " href="contact.html">Contact</a>
-                            <a class="nav-item nav-link " href="tickets.html">Tickets</a>
+                            <a class="nav-item nav-link active" href="../index.html">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-item nav-link" href="../lineup.html">Line Up</a>
+                            <a class="nav-item nav-link" href="../online.html">Online Festival</a>
+                            <a class="nav-item nav-link " href="../contact.html">Contact</a>
+                            <a class="nav-item nav-link " href="../tickets.html">Tickets</a>
                         </ul>
                     </div>
                 </nav>
@@ -51,39 +51,39 @@
                     <form class="form-inline">
                         <input class="form-control mr-sm-2" type="search" placeholder="Zoek" aria-label="Search">
 
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit"> <img class="icon" src="icons/search_white.png"></button>
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit"> <img class="icon" src="../icons/search_white.png"></button>
                     </form>
                 </nav>
             </div>
         </div>
 		 <div class="row">
-            <div class="col-12"><!-- TemplateBeginEditable name="titel" -->
+            <div class="col-12"><!-- InstanceBeginEditable name="titel" -->
               <h1>NEWS</h1>
-            <!-- TemplateEndEditable --></div>
+            <!-- InstanceEndEditable --></div>
         </div>
 	
 	
 	<div class="row">
             <div class="col-4 col-md-4 col-lg-4">
                 <div><a class="datum" href="#">4-7 SEPTEMBER</a></div>
-                <div> <img class="news" src="images/live-streaming.png"></div>
-                <img class="next" src="icons/next_purple.png">
+                <div> <img class="news" src="../images/live-streaming.png"></div>
+                <img class="next" src="../icons/next_purple.png">
             </div>
 
             <div class="col-4 col-md-4 col-lg-4">
                 <div>
-                    <p class="news-text">Wij organiseren met 7 bekende artiesten een live stream! Voor meer in formatie<a class="button" href="online.html" >Hoe werkt de live streaming?</a></p>
+                    <p class="news-text">Wij organiseren met 7 bekende artiesten een live stream! Voor meer in formatie<a class="button" href="../online.html" >Hoe werkt de live streaming?</a></p>
                 </div>
             </div>
         </div>
 
         <div class="row">
-            <div class="col-4 "><!-- TemplateBeginEditable name="data" --><a class="datum" href="#">29 JULI</a><!-- TemplateEndEditable --><img class="news" src="images/live-streaming.png">
-                <img class="next" src="icons/next_purple.png">
+            <div class="col-4 "><!-- InstanceBeginEditable name="data" --><a class="datum" href="#">4-7 sept</a><!-- InstanceEndEditable --><img class="news" src="../images/live-streaming.png">
+                <img class="next" src="../icons/next_purple.png">
             </div>
-            <div class="col-4 "><!-- TemplateBeginEditable name="info" -->
-              <p class="news-text" href="#">Wie komt er naar de live stream? Ontdek het hier! <a class="button" href="lineup.html">GO!</a></p>
-            <!-- TemplateEndEditable --></div>
+            <div class="col-4 "><!-- InstanceBeginEditable name="info" -->
+              <p class="news-text" href="#">Wie komt er naar de live stream? Ontdek het hier! <br><a class="button" href="../lineup.html">GO!</a></p>
+            <!-- InstanceEndEditable --></div>
         </div>
 
         <div class="row">
@@ -91,23 +91,23 @@
         </div>
 
         <div class="row">
-            <div class="col-4 col-md-4"><!-- TemplateBeginEditable name="data2" --><a class="datum" href="#">12 AUGUSTUS</a><!-- TemplateEndEditable --><img class="news" src="images/live-streaming.png">
-                <img class="next" src="icons/next_purple.png">
+            <div class="col-4 col-md-4"><!-- InstanceBeginEditable name="data2" --><a class="datum" href="#">4-7 sept</a><!-- InstanceEndEditable --><img class="news" src="../images/live-streaming.png">
+                <img class="next" src="../icons/next_purple.png">
             </div>
-            <div class="col-4"><!-- TemplateBeginEditable name="info2" -->
-              <p class="news-text" href="#">Aangepaste tickets voor online streaming <a href="soorten.html">Soorten tickets</a></p>
-            <!-- TemplateEndEditable --></div>
+            <div class="col-4"><!-- InstanceBeginEditable name="info2" -->
+              <p class="news-text" href="#">Aangepaste tickets voor online streaming <a class="button" href="../soorten.html">Soorten tickets</a></p>
+            <!-- InstanceEndEditable --></div>
         </div>
 
         <div class="row">
-            <div class="col-4 col-md-4"><!-- TemplateBeginEditable name="data3" --><a class="datum" href="#">4-7 sept</a><!-- TemplateEndEditable -->
+            <div class="col-4 col-md-4"><!-- InstanceBeginEditable name="data3" --><a class="datum" href="#">4-7 sept</a><!-- InstanceEndEditable -->
               <div class="gradient">
-                    <img class="news" src="images/live-streaming.png"></div>
-                <img class="next" src="icons/next_purple.png">
+                    <img class="news" src="../images/live-streaming.png"></div>
+                <img class="next" src="../icons/next_purple.png">
           </div>
-            <div class="col-4 col-md-4"><!-- TemplateBeginEditable name="info3" -->
-              <p class="news-text" href="#">Koop hier de tickets!<a class="button" href="koop.html">KOOP!</a></p>
-            <!-- TemplateEndEditable --></div>
+            <div class="col-4 col-md-4"><!-- InstanceBeginEditable name="info3" -->
+              <p class="news-text" href="#">Koop hier de tickets!<br><a class="button" href="../koop.html">KOOP!</a></p>
+            <!-- InstanceEndEditable --></div>
         </div>
 	
 	
@@ -115,9 +115,9 @@
             <div class="col-12 line"></div>
         </div>
 
-        <div class="row"><!-- TemplateBeginEditable name="logos" -->
+        <div class="row"><!-- InstanceBeginEditable name="logos" -->
         <div class="col-12 col-md-12"> <img src=""> <img src=""> <img src=""> <img src=""> </div>
-        <!-- TemplateEndEditable --></div>
+        <!-- InstanceEndEditable --></div>
     </div>
    <div class="container-fluid">
     <footer class="background-color">
@@ -134,9 +134,9 @@
             <div class="row">
                 <div class="col-12 col-md-4">
                     <ul>
-                        <li><a class="footer-link" href="contact.html">contact</a></li>
-                        <li><a class="footer-link" href="tickets.html">Tickets</a></li>
-                        <li><a class="footer-link" href="online.html">About online tickets</a></li>
+                        <li><a class="footer-link" href="../contact.html">contact</a></li>
+                        <li><a class="footer-link" href="../tickets.html">Tickets</a></li>
+                        <li><a class="footer-link" href="../online.html">About online tickets</a></li>
                         <li><a class="footer-link" href="">cookies</a></li>
                         <li><a class="footer-link" href="">disclaimer</a></li>
                         <li><a class="footer-link" href="">sponsers</a></li>
@@ -146,7 +146,7 @@
                 <div class="col-12 col-md-4">
 
 
-                    <span class="arrow"><img class="next-footer" src="icons/next_purple.png"></span>
+                    <span class="arrow"><img class="next-footer" src="../icons/next_purple.png"></span>
 
                     <div class="col-s-12 col-md-12">
                         <form>
@@ -154,7 +154,7 @@
                                 <input type="text" id="mail" name="mail">
                                 <label for="mail"></label>
                                 <button type="submit" style="background-color:transparent; border-color:transparent;"> 
-                            <img src="icons/mail_white.png" height="35"/>
+                            <img src="../icons/mail_white.png" height="35"/>
                           </button>
                             </div>
                         </form>
@@ -167,10 +167,10 @@
 		</div>
 	
 	
-<script src="myscripts.js"></script>
+<script src="../myscripts.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
 </body>
-</html>
+<!-- InstanceEnd --></html>
